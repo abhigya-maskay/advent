@@ -1,0 +1,17 @@
+["1\n2\n3\n","4\n5\n6"]
+(def x [C"1\n2\n3\n","4\n5\n6"])
+(def x ["1\n2\n3\n","4\n5\n6"])
+x
+(-> x
+(require '[clojure.string :as str) 
+(require '[clojure.string :as str]) 
+(-> x
+(map #(str/split "\n"))
+)
+(-> x
+(map #(str/split % #"\n")))
+(map #(str/split % #"\n"))
+(doall (map #(str/split % #"\n")))
+(map #(str/split % #"\n") x)
+:q
+(exit)
