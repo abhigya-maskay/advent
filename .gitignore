@@ -1,3 +1,4 @@
 .nrepl-history
 .clj-kondo
 .lsp
+.nrepl-port
